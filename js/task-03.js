@@ -19,6 +19,6 @@ const liElements = images.map(({url, alt}) => {
     }).join("");
 
 
-console.log(liElements)
+
 
 ulEl.insertAdjacentHTML("beforeend", liElements);
